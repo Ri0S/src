@@ -2,6 +2,7 @@
 #include <sensor_msgs/LaserScan.h>
 #include <geometry_msgs/Twist.h>
 #include <iostream>
+#include <std_msgs/Int32.h>
 #include <sys/time.h>
 #include <stdio.h>
 
@@ -20,7 +21,7 @@ int status = 0;
 void cb(const sensor_msgs::LaserScan& msg){
 	geometry_msgs::Twist aa;
 	int count = 0;
-	for(int i = 206; i < 435; i++){
+	for(int i = 196; i < 445; i++){
 		if(msg.ranges[i] < 1)
 			count++;
 	}
