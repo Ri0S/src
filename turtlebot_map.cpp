@@ -19,9 +19,9 @@ void occupancyGrid_Callback(const nav_msgs::OccupancyGrid& msg){
 	for(int i = 0; i < msg.info.height; i++){
 		for(int j = 0; j < msg.info.width; j++){
 			if(msg.data[i * msg.info.width + j] == 0)
-				display.at<Vec3b>(i, j) = Vec3b(80, 80, 80);
+				display.at<Vec3b>(j, i) = Vec3b(80, 80, 80);
 			else if(msg.data[i * msg.info.width + j] > 0)
-				display.at<Vec3b>(i, j) = Vec3b(255, 255, 255);
+				display.at<Vec3b>(j, i) = Vec3b(255, 255, 255);
 		}
 	}	
 
