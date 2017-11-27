@@ -1,0 +1,1 @@
+poetry theater  http://www.poetrytheatre.org/main.htm Our mission is to continue the oral tradition utilizing modern technology. Poetry Theatre presents actors performing their favorite poems, a glossary of terms and a biography of the poet. Its website gives poetry to everyone to inspire, to enjoy and to learn.

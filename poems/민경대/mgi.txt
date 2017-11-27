@@ -1,0 +1,1 @@
+mgi  http://compbio.dfci.harvard.edu/tgi/  http://www.informatics.jax.org/mgihome/other/collab_and_acknow.shtml http://www.informatics.jax.org/mgihome/projects/overview.shtml#aboutMGD http://www.informatics.jax.org/mgihome/projects/aboutmgi.shtml
